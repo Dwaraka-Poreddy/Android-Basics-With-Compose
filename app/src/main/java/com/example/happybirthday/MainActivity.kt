@@ -17,6 +17,7 @@ import com.example.happybirthday.ui.screens.ComposeArticle
 import com.example.happybirthday.ui.screens.ComposeQuadrantScreen
 import com.example.happybirthday.ui.screens.DiceRollerScreen
 import com.example.happybirthday.ui.screens.HomeScreen
+import com.example.happybirthday.ui.screens.LemonadeScreen
 import com.example.happybirthday.ui.screens.TaskSuccess
 import com.example.happybirthday.ui.theme.HappyBirthdayTheme
 
@@ -52,6 +53,9 @@ class MainActivity : ComponentActivity() {
                         }
                         composable("dice-roller") {
                             DiceRollerScreen(modifier = Modifier.padding(innerPadding))
+                        }
+                        composable("lemonade") {
+                            LemonadeScreen(modifier = Modifier.padding(innerPadding))
                         }
                     }
                 }

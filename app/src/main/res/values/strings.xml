@@ -16,4 +16,12 @@
     <string name="task_success_title">All tasks completed</string>
     <string name="task_success_description">Nice work!</string>
     <string name="dice_roller_roll">Roll</string>
+    <string name="lemonade_select_lemon">Tap the lemon tree to select a lemon</string>
+    <string name="lemonade_squeeze_lemon">Keep tapping the lemon to squeeze it</string>
+    <string name="lemonade_drink">Tap the lemonade to drink it</string>
+    <string name="lemonade_restart">Tap the empty glass to start again</string>
+    <string name="lemonade_lemon_tree">Lemon tree</string>
+    <string name="lemonade_lemon">Lemon</string>
+    <string name="lemonade_glass">Glass of lemonade</string>
+    <string name="lemonade_empty_glass">Empty glass</string>
 </resources>
