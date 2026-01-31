@@ -68,5 +68,11 @@ fun HomeScreen(modifier: Modifier = Modifier, navController: NavController) {
         Button(onClick = { navController.navigate("tip-calculator") }) {
             Text("Tip Calculator Screen")
         }
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        Button(onClick = { navController.navigate("art-space") }) {
+            Text("Art Space Screen")
+        }
     }
 }

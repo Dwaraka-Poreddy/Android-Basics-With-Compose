@@ -20,6 +20,7 @@ import com.example.happybirthday.ui.screens.HomeScreen
 import com.example.happybirthday.ui.screens.LemonadeScreen
 import com.example.happybirthday.ui.screens.TaskSuccess
 import com.example.happybirthday.ui.screens.TipCalculator
+import com.example.happybirthday.ui.screens.artSpaceScreen.ArtSpaceScreen
 import com.example.happybirthday.ui.theme.HappyBirthdayTheme
 
 class MainActivity : ComponentActivity() {
@@ -58,9 +59,11 @@ class MainActivity : ComponentActivity() {
                         composable("lemonade") {
                             LemonadeScreen(modifier = Modifier.padding(innerPadding))
                         }
-
                         composable("tip-calculator") {
                             TipCalculator(modifier = Modifier.padding(innerPadding))
+                        }
+                        composable("art-space") {
+                            ArtSpaceScreen(modifier = Modifier.padding(innerPadding))
                         }
                     }
                 }
