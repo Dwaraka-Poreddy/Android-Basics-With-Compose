@@ -11,6 +11,7 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.example.happybirthday.ui.screens.AffirmationsScreen
 import com.example.happybirthday.ui.screens.BirthdayScreen
 import com.example.happybirthday.ui.screens.businesscardscreen.BusinessCardScreen
 import com.example.happybirthday.ui.screens.ComposeArticle
@@ -64,6 +65,9 @@ class MainActivity : ComponentActivity() {
                         }
                         composable("art-space") {
                             ArtSpaceScreen(modifier = Modifier.padding(innerPadding))
+                        }
+                        composable("affirmations") {
+                            AffirmationsScreen(modifier = Modifier.padding(innerPadding))
                         }
                     }
                 }
