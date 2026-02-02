@@ -16,11 +16,13 @@ import com.example.happybirthday.ui.screens.BirthdayScreen
 import com.example.happybirthday.ui.screens.businesscardscreen.BusinessCardScreen
 import com.example.happybirthday.ui.screens.ComposeArticle
 import com.example.happybirthday.ui.screens.ComposeQuadrantScreen
+import com.example.happybirthday.ui.screens.CoursesScreen
 import com.example.happybirthday.ui.screens.DiceRollerScreen
 import com.example.happybirthday.ui.screens.HomeScreen
 import com.example.happybirthday.ui.screens.LemonadeScreen
 import com.example.happybirthday.ui.screens.TaskSuccess
 import com.example.happybirthday.ui.screens.TipCalculator
+import com.example.happybirthday.ui.screens.WoofScreen
 import com.example.happybirthday.ui.screens.artSpaceScreen.ArtSpaceScreen
 import com.example.happybirthday.ui.theme.HappyBirthdayTheme
 
@@ -68,6 +70,12 @@ class MainActivity : ComponentActivity() {
                         }
                         composable("affirmations") {
                             AffirmationsScreen(modifier = Modifier.padding(innerPadding))
+                        }
+                        composable("courses") {
+                            CoursesScreen(modifier = Modifier.padding(innerPadding))
+                        }
+                        composable("woof") {
+                            WoofScreen(modifier = Modifier.padding(innerPadding))
                         }
                     }
                 }

@@ -6,28 +6,25 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 
-// Set of Material typography styles to start with
-val Typography = Typography(
-    bodyLarge = TextStyle(
-        fontFamily = FontFamily.Default,
+val Typography = androidx.compose.material3.Typography(
+    displayLarge = TextStyle(
+        fontFamily = AbrilFatface,
         fontWeight = FontWeight.Normal,
-        fontSize = 16.sp,
-        lineHeight = 32.sp,
-        letterSpacing = 0.5.sp
+        fontSize = 36.sp
     ),
-    displaySmall = TextStyle(
-        fontFamily = FontFamily.Default,
+    displayMedium = TextStyle(
+        fontFamily = Montserrat,
         fontWeight = FontWeight.Bold,
-        fontSize = 36.sp,
-        lineHeight = 44.sp,
-        letterSpacing = 0.sp,
+        fontSize = 20.sp
     ),
-    titleLarge = TextStyle(
-        fontFamily = FontFamily.Default,
+    labelSmall = TextStyle(
+        fontFamily = Montserrat,
+        fontWeight = FontWeight.Bold,
+        fontSize = 14.sp
+    ),
+    bodyLarge = TextStyle(
+        fontFamily = Montserrat,
         fontWeight = FontWeight.Normal,
-        fontSize = 22.sp,
-        lineHeight = 28.sp,
-        letterSpacing = 0.sp
-    ),
-
+        fontSize = 14.sp
+    )
 )
