@@ -6,25 +6,27 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 
-val Typography = androidx.compose.material3.Typography(
-    displayLarge = TextStyle(
-        fontFamily = AbrilFatface,
+val Typography = Typography(
+    bodyLarge = TextStyle(
+        fontFamily = Cabin,
         fontWeight = FontWeight.Normal,
-        fontSize = 36.sp
+        fontSize = 16.sp,
+        lineHeight = 24.sp,
+        letterSpacing = 0.5.sp
+    ),
+    displayLarge = TextStyle(
+        fontFamily = Cabin,
+        fontWeight = FontWeight.Normal,
+        fontSize = 30.sp
     ),
     displayMedium = TextStyle(
-        fontFamily = Montserrat,
+        fontFamily = Cabin,
         fontWeight = FontWeight.Bold,
         fontSize = 20.sp
     ),
-    labelSmall = TextStyle(
-        fontFamily = Montserrat,
+    displaySmall = TextStyle(
+        fontFamily = Cabin,
         fontWeight = FontWeight.Bold,
-        fontSize = 14.sp
-    ),
-    bodyLarge = TextStyle(
-        fontFamily = Montserrat,
-        fontWeight = FontWeight.Normal,
-        fontSize = 14.sp
+        fontSize = 20.sp
     )
 )

@@ -49,7 +49,6 @@ import com.example.happybirthday.R
 import com.example.happybirthday.data.dogs
 import com.example.happybirthday.model.Dog
 import com.example.happybirthday.ui.theme.WoofTheme
-import kotlin.math.exp
 
 @Composable
 fun WoofScreen(modifier: Modifier = Modifier) {

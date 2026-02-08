@@ -20,6 +20,7 @@ import com.example.happybirthday.ui.screens.CoursesScreen
 import com.example.happybirthday.ui.screens.DiceRollerScreen
 import com.example.happybirthday.ui.screens.HomeScreen
 import com.example.happybirthday.ui.screens.LemonadeScreen
+import com.example.happybirthday.ui.screens.SuperheroesScreen
 import com.example.happybirthday.ui.screens.TaskSuccess
 import com.example.happybirthday.ui.screens.TipCalculator
 import com.example.happybirthday.ui.screens.WoofScreen
@@ -76,6 +77,9 @@ class MainActivity : ComponentActivity() {
                         }
                         composable("woof") {
                             WoofScreen(modifier = Modifier.padding(innerPadding))
+                        }
+                        composable("super-heroes") {
+                            SuperheroesScreen(modifier = Modifier.padding(innerPadding))
                         }
                     }
                 }

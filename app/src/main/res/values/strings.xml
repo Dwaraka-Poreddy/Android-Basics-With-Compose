@@ -75,4 +75,17 @@
     <string name="about">About:</string>
     <string name="years_old">%d years old</string>
     <string name="dog_expand_button_content_description">See more or less information about a dog.</string>
+    <string name="superhero_app_name">Superheroes</string>
+    <string name="superhero_hero1">Nick the Night and Day</string>
+    <string name="superhero_description1">The Jetpack Hero</string>
+    <string name="superhero_hero2">Reality Protector</string>
+    <string name="superhero_description2">Understands the absolute truth</string>
+    <string name="superhero_hero3">Andre the Giant</string>
+    <string name="superhero_description3">Mimics the light and night to blend in</string>
+    <string name="superhero_hero4">Benjamin the Brave</string>
+    <string name="superhero_description4">Harnesses the power of canary to develop bravely</string>
+    <string name="superhero_hero5">Magnificent Maru</string>
+    <string name="superhero_description5">Effortlessly glides in to save the day</string>
+    <string name="superhero_hero6">Dynamic Yasmine</string>
+    <string name="superhero_description6">Ability to shift to any form and energize</string>
 </resources>
