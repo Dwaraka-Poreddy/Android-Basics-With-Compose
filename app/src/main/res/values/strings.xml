@@ -88,4 +88,25 @@
     <string name="superhero_description5">Effortlessly glides in to save the day</string>
     <string name="superhero_hero6">Dynamic Yasmine</string>
     <string name="superhero_description6">Ability to shift to any form and energize</string>
+    <string name="wellness_app_name">30 Days of Wellness</string>
+    <string name="wellness_summary1">Spend 15 minutes outdoors</string>
+    <string name="wellness_summary2">Listen to a new podcast or audiobook</string>
+    <string name="wellness_summary3">Meditate for at least 3 minutes</string>
+    <string name="wellness_summary4">Write down three things you are grateful for</string>
+    <string name="wellness_summary5">Drink a full glass of water</string>
+    <string name="wellness_summary6">Stretch your body for 5 minutes</string>
+    <string name="wellness_summary7">Reach out to a friend or loved one</string>
+    <string name="wellness_summary8">De-clutter a small area of your room</string>
+    <string name="wellness_summary9">Practice deep breathing exercises</string>
+    <string name="wellness_summary10">Try a digital detox for one hour</string>
+    <string name="wellness_description1">Step outside, breathe the fresh air, and feel the sunlight to boost your mood and Vitamin D.</string>
+    <string name="wellness_description2">Engage your mind by learning something new or getting lost in a compelling story.</string>
+    <string name="wellness_description3">Find a quiet space to clear your mind, focus on the present, and reduce stress levels.</string>
+    <string name="wellness_description4">Cultivate a positive mindset by acknowledging the small wins and joys in your daily life.</string>
+    <string name="wellness_description5">Stay hydrated to improve your energy levels, brain function, and physical health.</string>
+    <string name="wellness_description6">Release muscle tension and improve your flexibility with some gentle, mindful movement.</string>
+    <string name="wellness_description7">Send a quick text or make a call to strengthen your social connections and feel supported.</string>
+    <string name="wellness_description8">Organize a desk or drawer to create a calmer environment and a sense of accomplishment.</string>
+    <string name="wellness_description9">Inhale deeply and exhale slowly to calm your nervous system and lower your heart rate.</string>
+    <string name="wellness_description10">Disconnect from all screens to reduce eye strain and give your mind a break from notifications.</string>
 </resources>
