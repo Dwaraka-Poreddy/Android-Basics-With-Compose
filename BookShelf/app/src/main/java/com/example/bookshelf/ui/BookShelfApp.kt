@@ -1,4 +1,4 @@
-package com.example.amphibians.ui
+package com.example.bookshelf.ui
 
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
@@ -13,27 +13,25 @@ import androidx.compose.material3.TopAppBarScrollBehavior
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.nestedscroll.nestedScroll
-import androidx.compose.ui.res.stringResource
+import com.example.bookshelf.ui.screens.BookShelfViewModel
+import com.example.bookshelf.ui.screens.HomeScreen
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.amphibians.R
-import com.example.amphibians.ui.screens.AmphibiansViewModel
-import com.example.amphibians.ui.screens.HomeScreen
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun AmphibiansApp(modifier: Modifier = Modifier) {
+fun BookShelf(modifier: Modifier = Modifier) {
     val scrollBehavior = TopAppBarDefaults.enterAlwaysScrollBehavior()
     Scaffold(
         modifier = Modifier.nestedScroll(scrollBehavior.nestedScrollConnection),
-        topBar = { AmphibiansTopAppBar(scrollBehavior = scrollBehavior) }) {
-        Surface(
-            modifier = Modifier.fillMaxSize().padding(it)
+        topBar = {BookShelfTopAppBar(scrollBehavior = scrollBehavior)}
+    ) {
+        Surface (modifier = Modifier.fillMaxSize().padding(it)
         ) {
-            val amphibiansViewModel: AmphibiansViewModel =
-                viewModel(factory = AmphibiansViewModel.Factory)
+            val bookShelfViewModel: BookShelfViewModel = viewModel(factory = BookShelfViewModel.Factory)
             HomeScreen(
-                amphibiansUiState = amphibiansViewModel.amphibiansUiState,
-                retryAction = amphibiansViewModel::getAmphibians,
+                bookShelfUiState = bookShelfViewModel.bookShelfUiState,
+                retryAction = bookShelfViewModel::getBooks,
+                modifier = modifier
             )
         }
     }
@@ -41,13 +39,18 @@ fun AmphibiansApp(modifier: Modifier = Modifier) {
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun AmphibiansTopAppBar(scrollBehavior: TopAppBarScrollBehavior, modifier: Modifier = Modifier) {
+fun BookShelfTopAppBar(
+    scrollBehavior: TopAppBarScrollBehavior,
+    modifier: Modifier = Modifier
+) {
     CenterAlignedTopAppBar(
-        scrollBehavior = scrollBehavior, title = {
+        scrollBehavior = scrollBehavior,
+        title = {
             Text(
-                text = stringResource(R.string.app_name),
+                text = "Book Shelf",
                 style = MaterialTheme.typography.headlineSmall,
             )
-        }, modifier = modifier
+        },
+        modifier = modifier
     )
 }

@@ -14,7 +14,6 @@ import coil.network.HttpException
 import com.example.amphibians.AmphibiansApplication
 import com.example.amphibians.data.Amphibian
 import com.example.amphibians.data.AmphibiansRepository
-import com.example.amphibians.data.NetworkAmphibiansRepository
 import kotlinx.coroutines.launch
 import okio.IOException
 
