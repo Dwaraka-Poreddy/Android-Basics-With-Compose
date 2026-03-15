@@ -42,7 +42,7 @@ class ItemEditViewModel(
         private set
 
     private val itemId: Int = checkNotNull(savedStateHandle[ItemEditDestination.itemIdArg])
-    
+
     init {
         viewModelScope.launch {
             itemUiState = itemsRepository.getItemStream(itemId)
