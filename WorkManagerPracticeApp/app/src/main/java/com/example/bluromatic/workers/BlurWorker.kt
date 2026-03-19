@@ -48,7 +48,6 @@ class BlurWorker(ctx: Context, params: WorkerParameters) : CoroutineWorker(ctx, 
                 )
                 val outputData = workDataOf(KEY_IMAGE_URI to outputUri.toString())
                 Result.Success(outputData)
-
             } catch (throwable: Throwable){
                 Log.e(
                     TAG,
